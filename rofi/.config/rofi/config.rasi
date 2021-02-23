@@ -1,0 +1,6 @@
+configuration {
+	show-icons: false;
+	theme: "/home/alexandre/.config/rofi/themes/slate.rasi";
+	font: "Fira sans 11";
+	lines: 10;
+}
