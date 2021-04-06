@@ -1,5 +1,8 @@
+# ~/.gitconfig
+# git configuration file
+
 [user]
-	email = 46037007+MonsieurBedard@users.noreply.github.com
-	name = Alexandre Bédard
+    email = 46037007+MonsieurBedard@users.noreply.github.com
+    name = Alexandre Bédard
 [pull]
-	rebase = false
+    rebase = false
