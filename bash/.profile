@@ -1,8 +1,7 @@
 # shellcheck shell=bash
 
-#
-# .profile
-#
+# ~/.profile
+# bash configuration file
 
 # PATH
 if [ -d "$HOME/.local/bin" ]; then
@@ -12,6 +11,9 @@ fi
 if [ -d "$HOME/.local/scripts" ]; then
     PATH=$PATH:~/.local/scripts
 fi
+
+# ssh agent
+eval "$(ssh-agent -s)"
 
 # general environment variables
 export EDITOR="nvim"
