@@ -1,6 +1,16 @@
+/*
+ * ~/.config/rofi/config.rasi
+ * Rofi configuration file
+ */
+
 configuration {
+	modi: "drun,window,ssh,run";
+	sidebar-mode: true;
 	show-icons: false;
-	theme: "/home/alexandre/.config/rofi/themes/slate.rasi";
-	font: "Fira sans 11";
+	icon-theme: "Papirus-Dark";
+	theme: "~/.config/rofi/themes/slate.rasi";
+	font: "Fira code 12";
 	lines: 10;
+	m: "-4";
+	parse-known-hosts: false;
 }

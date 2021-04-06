@@ -1,13 +1,14 @@
 * {
-  background-color: #383838;
-  border-color: #444444;
+  background-color: #282828;
+  border-color: #585858;
   text-color: #C5C5C5;
   spacing: 0;
-  width: 512px;
+  width: 750px;
 }
 
 window {
 	border-radius: 4;
+  border: 3px;
 }
 
 inputbar {
@@ -34,15 +35,30 @@ entry {
 
 listview {
   cycle: false;
-  margin: 0 0 -1px 0;
   scrollbar: false;
 }
 
 element {
   border: 0 0 1px 0;
-  padding: 16px;
+  padding: 12px;
+}
+
+element-icon {
+  size: 2ch ;
 }
 
 element selected {
-  background-color: #2e343f;
+  background-color: #383838;
+}
+
+mode-switcher {
+  border: 1px 0 0 0;
+}
+
+button {
+  padding: 12px;
+}
+
+button selected.normal {
+  background-color: #383838;
 }
